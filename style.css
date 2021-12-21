@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+form {
+    min-width: 30%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input, label {
+    display: block;
+    margin: 5px;
+}
+
+input, select {
+    min-width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+select, .submit {
+    min-width: 50%;
+}

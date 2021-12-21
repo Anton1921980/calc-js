@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>javascript: calculate two numbers</title>
+    <meta charset="windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form onsubmit="calc(); return false">
+            <fieldset>
+                <legend>Simple JS calculator</legend>
+                <div class='input'>
+                    <div class="input-numbers">
+                        <div>
+                            <label for="number1">input 1st number</label>
+                            <input type="text" id="number1" placeholder="type number" required/>
+                        </div>
+                        <div>
+                            <label for="number2">input 2nd number</label>
+                            <input type="text" id="number2" placeholder="type number"required>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div>
+                            <label for="select">choose action</label>
+                            <select id="operators" required>
+                                <option value="+">+</option>
+                                <option value="-">-</option>
+                                <option value="/">/</option>
+                                <option value="X">X</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="select">click to see result</label>
+                            <input type="submit" class='submit' value="=">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for="result">result</label>
+                    <input type="text" id="result" placeholder="result will be here" disabled />
+                </div>
+            </fieldset>
+
+        </form>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
